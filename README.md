@@ -107,7 +107,7 @@ CareCompanion/
 1. Clone the repo
 bashgit clone https://github.com/maithili74/CareCompanion
 ```
-cd carecompanion-ai
+cd CareCompanion
 ```
 
 3. Install dependencies
