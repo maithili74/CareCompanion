@@ -5,13 +5,13 @@ The agent reasons across three domains simultaneously - medications, nutrition, 
 
 ## Key Features
 
-- Persistent memory — remembers patient history across sessions using ChromaDB vector store + SQLite
-- 5 real healthcare APIs — OpenFDA, RxNorm, USDA FoodData, PubMed, GoodRx pricing
-- Autonomous tool selection — agent decides which APIs to call based on patient query
-- Proactive FDA monitoring — surfaces drug safety alerts without being asked
-- Cost optimization — identifies generic medication alternatives and annual savings
-- Nutrition assessment — flags foods by glycemic impact for diabetes management
-- Multi-patient support — 70 simulated patient profiles with realistic clinical data
+- Persistent memory - remembers patient history across sessions using ChromaDB vector store + SQLite
+- 5 real healthcare APIs - OpenFDA, RxNorm, USDA FoodData, PubMed, GoodRx pricing
+- Autonomous tool selection - agent decides which APIs to call based on patient query
+- Proactive FDA monitoring - surfaces drug safety alerts without being asked
+- Cost optimization - identifies generic medication alternatives and annual savings
+- Nutrition assessment - flags foods by glycemic impact for diabetes management
+- Multi-patient support - 70 simulated patient profiles with realistic clinical data
 
 
 ## Architecture
