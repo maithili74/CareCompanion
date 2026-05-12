@@ -12,3 +12,34 @@ The agent reasons across three domains simultaneously - medications, nutrition, 
 - Cost optimization — identifies generic medication alternatives and annual savings
 - Nutrition assessment — flags foods by glycemic impact for diabetes management
 - Multi-patient support — 70 simulated patient profiles with realistic clinical data
+
+
+## Architecture
+
+'''python
+User Message
+     │
+     ▼
+┌─────────────────┐
+│  Node 1         │  Load patient profile (SQLite)
+│  load_context   │  Retrieve relevant past conversations (ChromaDB)
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│  Node 2         │  LLM decides which tools are needed
+│  decide_tools   │  based on patient profile + message
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐     ┌──────────────────────────────────────┐
+│  Node 3         │────▶│  OpenFDA  · RxNorm  · USDA           │
+│  run_tools      │     │  PubMed   · GoodRx pricing           │
+└────────┬────────┘     └──────────────────────────────────────┘
+         │
+         ▼
+┌─────────────────┐
+│  Node 4         │  Generates personalized response
+│  generate       │  Saves to memory · Writes agent note
+└─────────────────┘
+'''
