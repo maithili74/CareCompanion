@@ -43,3 +43,40 @@ User Message
 │  generate       │  Saves to memory · Writes agent note
 └─────────────────┘
 ```
+
+## Memory Architecture:
+
+SQLite — structured patient facts (medications, glucose, BMI, budget, insurance)
+ChromaDB — conversation history as vectors for semantic search across sessions
+
+## Project Structure
+
+
+```CareCompanion/
+│
+├── notebooks/
+│   ├── data.ipynb       
+│   ├── memory_arch.ipynb  
+│   ├── api.ipynb       
+│   ├── agent.ipynb             
+│   ├── ui.ipynb            
+│   └── evaluation.ipynb           
+│
+├── data/
+│   ├── raw/                          # Pima Diabetes dataset (768 patients)
+│   └── processed/
+│       ├── diabetes_clean.csv        
+│       └── distributions.png         
+│
+├── memory/
+│   ├── sqlite/carecompanion.db       # Patient profiles + structured facts
+│   └── chroma_db/                    # Conversation vector store
+│
+├── evaluation/
+│   ├── test_patients.json            
+│   ├── test_patients_expanded.json   
+│   ├── metrics_report.json           
+│   └── metrics_dashboard.png        
+│
+└── requirements.txt
+```
