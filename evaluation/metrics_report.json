@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-05-08T20:37:05.636898",
+  "patients_tested": 20,
+  "tool_success_rate_pct": 81.81818181818183,
+  "memory_accuracy_pct": 100.0,
+  "avg_annual_cost_savings": 2294.4,
+  "nutrition_accuracy_pct": 70.0,
+  "fda_coverage_pct": 100.0,
+  "avg_latency_seconds": 0.17837343215942383
+}

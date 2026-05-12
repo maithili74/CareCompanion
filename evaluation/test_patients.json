@@ -1,0 +1,662 @@
+[
+  {
+    "patient_id": "p001",
+    "name": "Sarah",
+    "age": 50,
+    "created_at": "2026-05-09T20:57:07.054385",
+    "last_seen": "2026-05-09T20:57:07.054385",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 148.0,
+    "recent_a1c": 7.3,
+    "recent_bmi": 33.6,
+    "diet_preferences": [
+      "low-carb"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "sedentary",
+    "budget_monthly": 200.0,
+    "insurance": "none",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p002",
+    "name": "James",
+    "age": 32,
+    "created_at": "2026-05-09T20:57:07.056389",
+    "last_seen": "2026-05-09T20:57:07.056389",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000mg",
+        "frequency": "twice daily"
+      },
+      {
+        "name": "Glipizide",
+        "dose": "5mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 183.0,
+    "recent_a1c": 8.5,
+    "recent_bmi": 23.3,
+    "diet_preferences": [
+      "vegetarian"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "light",
+    "budget_monthly": 300.0,
+    "insurance": "medicaid",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p003",
+    "name": "Maria",
+    "age": 33,
+    "created_at": "2026-05-09T20:57:07.056389",
+    "last_seen": "2026-05-09T20:57:07.056389",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500mg",
+        "frequency": "twice daily"
+      },
+      {
+        "name": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 137.0,
+    "recent_a1c": 6.9,
+    "recent_bmi": 43.1,
+    "diet_preferences": [
+      "standard"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "moderate",
+    "budget_monthly": 150.0,
+    "insurance": "private",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p004",
+    "name": "David",
+    "age": 26,
+    "created_at": "2026-05-09T20:57:07.056389",
+    "last_seen": "2026-05-09T20:57:07.056389",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Insulin Glargine",
+        "dose": "20 units",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 78.0,
+    "recent_a1c": 4.9,
+    "recent_bmi": 31.0,
+    "diet_preferences": [
+      "mediterranean"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "active",
+    "budget_monthly": 300.0,
+    "insurance": "none",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p005",
+    "name": "Linda",
+    "age": 53,
+    "created_at": "2026-05-09T20:57:07.056389",
+    "last_seen": "2026-05-09T20:57:07.056389",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 197.0,
+    "recent_a1c": 9.0,
+    "recent_bmi": 30.5,
+    "diet_preferences": [
+      "low-carb"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "sedentary",
+    "budget_monthly": 300.0,
+    "insurance": "medicaid",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p006",
+    "name": "Carlos",
+    "age": 54,
+    "created_at": "2026-05-09T20:57:07.056389",
+    "last_seen": "2026-05-09T20:57:07.056389",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 125.0,
+    "recent_a1c": 6.5,
+    "recent_bmi": 32.3,
+    "diet_preferences": [
+      "vegetarian"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "light",
+    "budget_monthly": 100.0,
+    "insurance": "private",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p007",
+    "name": "Emma",
+    "age": 34,
+    "created_at": "2026-05-09T20:57:07.056389",
+    "last_seen": "2026-05-09T20:57:07.056389",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000mg",
+        "frequency": "twice daily"
+      },
+      {
+        "name": "Glipizide",
+        "dose": "5mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 168.0,
+    "recent_a1c": 8.0,
+    "recent_bmi": 38.0,
+    "diet_preferences": [
+      "standard"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "moderate",
+    "budget_monthly": 150.0,
+    "insurance": "none",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p008",
+    "name": "Michael",
+    "age": 59,
+    "created_at": "2026-05-09T20:57:07.056389",
+    "last_seen": "2026-05-09T20:57:07.056389",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500mg",
+        "frequency": "twice daily"
+      },
+      {
+        "name": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 189.0,
+    "recent_a1c": 8.7,
+    "recent_bmi": 30.1,
+    "diet_preferences": [
+      "mediterranean"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "active",
+    "budget_monthly": 150.0,
+    "insurance": "medicaid",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p009",
+    "name": "Priya",
+    "age": 51,
+    "created_at": "2026-05-09T20:57:07.056389",
+    "last_seen": "2026-05-09T20:57:07.056389",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Insulin Glargine",
+        "dose": "20 units",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 166.0,
+    "recent_a1c": 7.9,
+    "recent_bmi": 25.8,
+    "diet_preferences": [
+      "low-carb"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "sedentary",
+    "budget_monthly": 150.0,
+    "insurance": "private",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p010",
+    "name": "Robert",
+    "age": 32,
+    "created_at": "2026-05-09T20:57:07.056389",
+    "last_seen": "2026-05-09T20:57:07.056389",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 100.0,
+    "recent_a1c": 5.6,
+    "recent_bmi": 30.0,
+    "diet_preferences": [
+      "vegetarian"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "light",
+    "budget_monthly": 300.0,
+    "insurance": "none",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p011",
+    "name": "Angela",
+    "age": 31,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 118.0,
+    "recent_a1c": 6.3,
+    "recent_bmi": 45.8,
+    "diet_preferences": [
+      "standard"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "moderate",
+    "budget_monthly": 200.0,
+    "insurance": "medicaid",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p012",
+    "name": "Kevin",
+    "age": 31,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000mg",
+        "frequency": "twice daily"
+      },
+      {
+        "name": "Glipizide",
+        "dose": "5mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 107.0,
+    "recent_a1c": 5.9,
+    "recent_bmi": 29.6,
+    "diet_preferences": [
+      "mediterranean"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "active",
+    "budget_monthly": 150.0,
+    "insurance": "private",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p013",
+    "name": "Susan",
+    "age": 32,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500mg",
+        "frequency": "twice daily"
+      },
+      {
+        "name": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 115.0,
+    "recent_a1c": 6.2,
+    "recent_bmi": 34.6,
+    "diet_preferences": [
+      "low-carb"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "sedentary",
+    "budget_monthly": 300.0,
+    "insurance": "none",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p014",
+    "name": "Ahmed",
+    "age": 41,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Insulin Glargine",
+        "dose": "20 units",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 196.0,
+    "recent_a1c": 9.0,
+    "recent_bmi": 39.8,
+    "diet_preferences": [
+      "vegetarian"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "light",
+    "budget_monthly": 100.0,
+    "insurance": "medicaid",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p015",
+    "name": "Nicole",
+    "age": 29,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 119.0,
+    "recent_a1c": 6.3,
+    "recent_bmi": 29.0,
+    "diet_preferences": [
+      "standard"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "moderate",
+    "budget_monthly": 200.0,
+    "insurance": "private",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p016",
+    "name": "Thomas",
+    "age": 51,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 143.0,
+    "recent_a1c": 7.1,
+    "recent_bmi": 36.6,
+    "diet_preferences": [
+      "mediterranean"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "active",
+    "budget_monthly": 100.0,
+    "insurance": "none",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p017",
+    "name": "Grace",
+    "age": 41,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000mg",
+        "frequency": "twice daily"
+      },
+      {
+        "name": "Glipizide",
+        "dose": "5mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 125.0,
+    "recent_a1c": 6.5,
+    "recent_bmi": 31.1,
+    "diet_preferences": [
+      "low-carb"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "sedentary",
+    "budget_monthly": 200.0,
+    "insurance": "medicaid",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p018",
+    "name": "Daniel",
+    "age": 43,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500mg",
+        "frequency": "twice daily"
+      },
+      {
+        "name": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 147.0,
+    "recent_a1c": 7.3,
+    "recent_bmi": 39.4,
+    "diet_preferences": [
+      "vegetarian"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "light",
+    "budget_monthly": 300.0,
+    "insurance": "private",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p019",
+    "name": "Patricia",
+    "age": 28,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Insulin Glargine",
+        "dose": "20 units",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 158.0,
+    "recent_a1c": 7.7,
+    "recent_bmi": 31.6,
+    "diet_preferences": [
+      "standard"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "moderate",
+    "budget_monthly": 75.0,
+    "insurance": "none",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  },
+  {
+    "patient_id": "p020",
+    "name": "Marcus",
+    "age": 46,
+    "created_at": "2026-05-09T20:57:07.057397",
+    "last_seen": "2026-05-09T20:57:07.057397",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "name": "Sitagliptin",
+        "dose": "100mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [],
+    "recent_glucose": 102.0,
+    "recent_a1c": 5.7,
+    "recent_bmi": 32.9,
+    "diet_preferences": [
+      "mediterranean"
+    ],
+    "foods_to_avoid": [],
+    "activity_level": "active",
+    "budget_monthly": 200.0,
+    "insurance": "medicaid",
+    "session_count": 0,
+    "agent_notes": [],
+    "last_fda_check": null
+  }
+]
