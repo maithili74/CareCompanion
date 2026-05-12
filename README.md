@@ -51,10 +51,10 @@ ChromaDB — conversation history as vectors for semantic search across sessions
 
 ## Project Structure
 
-
-```CareCompanion/
+```
+CareCompanion/
 │
-├── notebooks/
+├── codes/
 │   ├── data.ipynb       
 │   ├── memory_arch.ipynb  
 │   ├── api.ipynb       
@@ -80,3 +80,36 @@ ChromaDB — conversation history as vectors for semantic search across sessions
 │
 └── requirements.txt
 ```
+
+## Quickstart
+
+1. Clone the repo
+bashgit clone https://github.com/yourusername/CareCompanion
+```
+cd carecompanion-ai
+```
+
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+5. Get free API keys
+
+Groq: https://console.groq.com (instant, no card)
+USDA: https://fdc.nal.usda.gov/api-guide.html (instant)
+OpenFDA: no key needed
+PubMed: no key needed
+
+4. Set your keys
+```
+os.environ["GROQ_API_KEY"] = "your_key_here"
+os.environ["USDA_API_KEY"] = "your_key_here"
+```
+5. Run notebooks in order
+```
+data -> memory_arch -> api -> agent -> ui
+```
+
+6. Launch the UI
+Run all cells in ui.ipynb, a local + public URL will appear automatically.
