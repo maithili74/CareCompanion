@@ -16,7 +16,7 @@ The agent reasons across three domains simultaneously - medications, nutrition, 
 
 ## Architecture
 
-'''python
+```
 User Message
      │
      ▼
@@ -42,4 +42,4 @@ User Message
 │  Node 4         │  Generates personalized response
 │  generate       │  Saves to memory · Writes agent note
 └─────────────────┘
-'''
+```
