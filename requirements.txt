@@ -1,0 +1,35 @@
+# CareCompanion AI — Requirements
+# Install: pip install -r requirements.txt
+ 
+# Agent framework
+langgraph==0.1.0
+langchain==0.1.0
+langchain-groq==0.0.3
+langchain-community==0.0.10
+ 
+# LLM
+groq==0.4.2
+ 
+# Memory
+chromadb==0.4.22
+sqlalchemy==2.0.23
+ 
+# API calls
+requests==2.31.0
+tenacity==8.2.3
+ 
+# Data
+pandas==2.1.4
+numpy==1.26.2
+ 
+# UI
+gradio==4.19.2
+ 
+# Utilities
+python-dotenv==1.0.0
+ 
+# Notebooks
+jupyter==1.0.0
+ipykernel==6.29.0
+matplotlib==3.8.2
+seaborn==0.13.2
