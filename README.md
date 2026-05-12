@@ -105,8 +105,9 @@ CareCompanion/
 ## Quickstart
 
 1. Clone the repo
-bashgit clone https://github.com/maithili74/CareCompanion
+
 ```
+git clone https://github.com/maithili74/CareCompanion
 cd CareCompanion
 ```
 
