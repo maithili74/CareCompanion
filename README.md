@@ -81,10 +81,17 @@ CareCompanion/
 └── requirements.txt
 ```
 
+## Dataset
+
+- Pima Indians Diabetes Database — 768 real patient records (Kaggle/UCI)
+- 70 simulated test patients — derived from Pima dataset with realistic medication regimens, insurance types, budgets, and comorbidities
+- USDA FoodData Central — 300k+ foods with full nutritional profiles
+
+
 ## Quickstart
 
 1. Clone the repo
-bashgit clone https://github.com/yourusername/CareCompanion
+bashgit clone https://github.com/maithili74/CareCompanion
 ```
 cd carecompanion-ai
 ```
