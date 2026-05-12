@@ -49,6 +49,20 @@ User Message
 SQLite — structured patient facts (medications, glucose, BMI, budget, insurance)
 ChromaDB — conversation history as vectors for semantic search across sessions
 
+## Tech Stack
+- LLM: Groq (Llama 3.3 70B)
+- Framework: LangGraph
+- Memory & Storage: ChromaDB + SQLite
+- APIs: OpenFDA, RxNorm, USDA FoodData Central, PubMed
+- UI: Gradio
+
+## Evaluation Metrics
+- Tool Call Success Rate: 81.8%
+- Memory Retrieval Accuracy: 66.7%
+- Avg Annual Cost Savings: $2,294 per patient
+- Nutrition Assessment Accuracy: 70%
+- FDA Alert Coverage: 100%
+
 ## Project Structure
 
 ```
